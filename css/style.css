@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&family=Unbounded&display=swap'); 
+
+
+/* Global */
+body{
+    background-color:white;
+    color: black;
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button_2{
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    height: 30px;
+    background: rgba(248, 76, 76, 0.762);
+    border: 0;
+    color: white;
+}
+
+/* Header */
+
+.container-header{
+    width: 100%;
+    margin: auto;
+    overflow:hidden;
+    background-color: rgb(41, 39, 39);
+    border-top: 1px rgba(255, 255, 255, 0.331) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.331) solid;
+    margin-top: 0;
+    min-height: 55px;
+    padding: 0;
+    
+}
+
+header h1{
+    font-family: 'Unbounded', cursive;
+    color: rgb(170, 163, 163);
+    font-size: 24px;
+    margin:0;
+}
+
+header a{
+    font-family: 'Prompt', sans-serif;
+    color:  rgb(170, 163, 163);
+    text-decoration: none;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px; 
+    scroll-behavior: smooth;
+}
+
+header #branding{
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+header nav{
+    float:right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+header a:hover{
+    color:white;
+    font-weight: bold;
+}
+
+/* Showcase */
+
+#showcase{
+    background-image:url('../img/showcase.jpg_large');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+#showcase h1{
+    font-family: 'Unbounded', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    margin-top: 480px;
+    margin-bottom: 480px;
+}
+
+/* Beatstars */
+
+#beatstars{
+    text-align: center;
+}
+
+.container-beatstars{
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+.container-beatstars img{
+    padding: 0;
+    margin-top: 27px;
+    margin-left: 100px;
+    float: left;
+}
+#beatstars h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Unbounded', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+
+}
+
+/* Boxes */
+
+#boxes{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.box{
+    margin: auto;
+    overflow:hidden;
+    background-color: rgb(225, 225, 225);
+    border-top: 1px rgba(255, 255, 255, 0.331) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.331) solid;
+    margin-top: 0;
+    padding: 20px;
+    float:left;
+    text-align: center;
+    width: 31%;
+    padding: 10px;
+}
+
+
+#boxes h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Unbounded', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    
+}
+
+.box h3{
+    font-family: 'Unbounded', cursive;
+    color:  rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+    
+}
+
+.box h4{
+    font-family: 'Unbounded', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin:0;
+    padding: 30px;
+}
+
+.box ul{
+    font-family: 'Prompt', sans-serif;
+    color:  rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 3em;
+    float: left;
+    padding: 20px; 
+    list-style: none;
+}
+
+.footer-container{
+    width: 100%;
+    margin: auto;
+    overflow:hidden;
+    background-color: rgb(41, 39, 39);
+    border-top: 1px rgba(255, 255, 255, 0.331) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.331) solid;
+    margin-top: 0;
+    min-height: 55px;
+    padding: 0;
+
+}
+
+footer h1{
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Unbounded', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+footer h2{
+    font-family: 'Prompt', sans-serif;
+    color:  rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1.6em;
+    padding-top: 15px;
+    margin: 0;
+}
+
+div .form{
+    display: block;
+    text-align: center;
+}
+
+form{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+footer input{
+    padding: 4px;
+    height: 25px;
+    width: 800px;
+}
+
+footer .button_2{
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    height: 30px;
+    background: rgba(248, 76, 76, 0.762);
+    border: 0;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
